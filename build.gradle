@@ -4,7 +4,8 @@ plugins {
 
 group = "com.classoft.tools"
 version = "0.0.1-SNAPSHOT"
-sourceCompatibility = "21"
+sourceCompatibility = 20
+targetCompatibility = 20
 
 configurations {
 	compileOnly {
@@ -17,6 +18,6 @@ repositories {
 }
 
 dependencies {
-	compileOnly 'org.projectlombok:lombok'
-	annotationProcessor 'org.projectlombok:lombok'
+	compileOnly 'org.projectlombok:lombok:1+'
+	annotationProcessor 'org.projectlombok:lombok:1+'
 }
